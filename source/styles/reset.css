@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,p,a {
+    /* color: #e28542; */
+    color: white;
+    font-size: 3rem;
+}
+
+p,a,li {
+    font-size: 2rem;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}

@@ -116,7 +116,7 @@ footer {
     margin-top: 1rem;
     padding-left: 1rem;
     border-top: 3px solid black;
-    justify-content: space-between;
+    justify-content: center;
     background-image: url(../images/header-back.webp);
     background-size: contain;
 }
@@ -130,15 +130,6 @@ footer img {
     height: 60px;
 }
 
-.col-2 {
-    display: flex;
-    justify-content: center;
-}
-
-.footer__logo a {
-    padding-right: 1rem;
-}
-
 /* Адаптив */
 
 @media (max-width: 768px) {
@@ -150,5 +141,11 @@ footer img {
     .card img {
         height: 20%;
         object-fit: cover;
+    }
+}
+
+@media (max-width: 425px) {
+    .links a {
+        font-size: 1.5rem;
     }
 }

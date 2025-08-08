@@ -85,6 +85,10 @@ header {
     height: auto;
 }
 
+.section-3 p {
+    text-align: center;
+}
+
 /* -------------------------------------------------------- */
 
 footer {

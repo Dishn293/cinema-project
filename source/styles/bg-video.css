@@ -23,3 +23,7 @@
 .video-text {
     z-index: 2;
 }
+
+.video-text h1 {
+    color: black;
+}
